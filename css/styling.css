@@ -29,7 +29,7 @@ body {
   min-height: 100%;
   background-color: #fff;
   font-family: Arial, sans-serif;
-  font-size: 14px;
+  font-size: clamp(12px, 4vw, 16px);
   line-height: 20px;
   color: #333;
 }
@@ -52,32 +52,32 @@ h6 {
   margin-bottom: 10px;
 }
 h1 {
-  font-size: 38px;
+  
   line-height: 44px;
   margin-top: 20px;
 }
 h2 {
-  font-size: 32px;
+  
   line-height: 36px;
   margin-top: 20px;
 }
 h3 {
-  font-size: 24px;
+  
   line-height: 30px;
   margin-top: 20px;
 }
 h4 {
-  font-size: 18px;
+  
   line-height: 24px;
   margin-top: 10px;
 }
 h5 {
-  font-size: 14px;
+  
   line-height: 20px;
   margin-top: 10px;
 }
 h6 {
-  font-size: 12px;
+  
   line-height: 18px;
   margin-top: 10px;
 }
@@ -89,7 +89,7 @@ blockquote {
   margin: 0 0 10px 0;
   padding: 10px 20px;
   border-left: 5px solid #E2E2E2;
-  font-size: 18px;
+  
   line-height: 22px;
 }
 figure {
@@ -124,7 +124,7 @@ fieldset {
 h2 {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 32px;
+  font-size: clamp(16px, 4vw, 18px);
   font-weight: 700;
   line-height: 36px;
 }
@@ -165,7 +165,7 @@ h2 {
 
 .poster {
   color: #000;
-  font-size: 1rem;
+  font-size: clamp(12px, 4vw, 16px);
   font-weight: 700;
 }
 
@@ -240,7 +240,7 @@ display: flex;
   color: #686868;
   justify-content: space-between;
   align-items: center;
-  font-size: 1rem;
+  font-size: clamp(12px, 4vw, 16px);
   display: flex;
 }
 
@@ -312,7 +312,7 @@ input {
   }
 
   .likes_wrapper {
-    font-size: .85rem;
+    font-size: clamp(12px, 4vw, 16px);
   }
 
   .button_label {
