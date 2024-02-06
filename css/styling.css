@@ -136,6 +136,8 @@ h2 {
   flex-direction: column;
   padding: 1rem;
   display: flex;
+  border-radius: 1rem;
+  overflow: hidden;
 }
 
 .post-image_wrapper {
