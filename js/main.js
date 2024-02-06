@@ -76,7 +76,7 @@ let ocupatii = [
   "un vlăjgan",
   "un samurai",
   "un voievod",
-  "o tanti",
+  "o pramatie",
   "o persoană",
   "un magnat",
   "o fetiţă",
@@ -89,7 +89,7 @@ let ocupatii = [
   "un şampon",
   "un lama tibetan",
   "un interpret",
-  "o mătuşă",
+  "o mătuşică",
 ];
 
 let anotimpuri = [
