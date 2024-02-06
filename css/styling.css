@@ -298,30 +298,15 @@ input {
 
 
 @media screen and (max-width: 991px) {
-  .card-content-wrapper {
-    grid-column-gap: 1.5rem;
-    grid-row-gap: 1.5rem;
-    flex-direction: column;
-  }
 
-  .card {
-    min-height: 100%;
-  }
 }
 
 @media screen and (max-width: 767px) {
-  .card-content-wrapper {
-    padding: 2rem 2rem 2rem 4rem;
-  }
-
-  .card._2, .card._4, .card._3 {
-    max-width: 95%;
-    left: 5%;
-  }
 
   .main_container {
     grid-column-gap: 1rem;
     grid-row-gap: 1rem;
+    padding: 0.5rem;
     flex-direction: column;
     display: flex;
   }
@@ -336,10 +321,13 @@ input {
 }
 
 @media screen and (max-width: 479px) {
-  .card-content-wrapper {
-    padding-top: 3rem;
-    padding-bottom: 1rem;
-    padding-right: 1rem;
+
+  .main_container {
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    padding: 0;
+    flex-direction: column;
+    display: flex;
   }
 
   .post-image_wrapper {
