@@ -518,6 +518,9 @@ function handleClick() {
 
   //comments
   updateTextContent("num-comments", randomIntFromInterval(147, 11648));
+
+  //laics
+  updateTextContent("num-laics", randomIntFromInterval(147, 948));
 }
 
 function updateTextContent(dataTarget, value) {
