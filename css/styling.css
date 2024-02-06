@@ -270,6 +270,8 @@ display: flex;
 }
 
 .comment-profile_wrapper {
+  display: flex;
+  align-items: stretch;
   border-radius: 3rem;
   overflow: hidden;
 }
