@@ -131,7 +131,6 @@ h2 {
 
 
 .main_container {
-  height: 50rem;
   grid-row-gap: .5rem;
   flex-direction: column;
   padding: 1rem;
