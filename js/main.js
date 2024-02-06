@@ -470,7 +470,7 @@ function handleClick() {
   updateTextContent("rezolvare", rezolvari[randomRezolvareIndex]);
 
   //ore
-  let randomOra = randomIntFromInterval(2, 72);
+  let randomOra = randomIntFromInterval(2, 19);
   updateTextContent("timp", randomOra);
 
   //prajituri
