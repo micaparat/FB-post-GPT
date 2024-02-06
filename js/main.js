@@ -263,6 +263,15 @@ let probleme = [
   "Zâna Măseluţă i-a dat ţeapă copilului cu 4 lei",
   "copilul şi-a pierdut iPhoneul în reprezentanţa Louis Vuitton",
   "s-a băgat în selfie-ul copilului o persoană cu nasul mare",
+  "temperatura medie a oceanelor a crescut cu 2 grade",
+  "nimeni nu le-a explicat regulile jocului de bambilici",
+  "de undeva din întuneric s-a auzit CUCU BAU",
+  "hoţii deghizaţi în degete i-au furat copilului nasul",
+  "colegul de bancă nu vrea să returneze ascuţitoarea împrumutată",
+  "cineva a mâncat ultimul Eti Puf din cămară",
+  "vocile au început să vorbească în aramaică",
+  "cineva a dezinstalat Minecraft de pe xboxul din sufragerie",
+  "o colegă are mai multe likeuri pe insta",
 ];
 
 let rezolvari = [
