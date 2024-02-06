@@ -43,6 +43,11 @@ let nume = [
   "Dalai",
   "Benone",
   "Tamara",
+  "Răzvy",
+  "Şobo",
+  "Zorro",
+  "Reginald",
+  "Decebal",
 ];
 
 let ocupatii = [
@@ -90,6 +95,11 @@ let ocupatii = [
   "un lama tibetan",
   "un interpret",
   "o mătuşică",
+  "un cârlan",
+  "un plăvan",
+  "un dârlău",
+  "un copilaş",
+  "un muţunache",
 ];
 
 let anotimpuri = [
