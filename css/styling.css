@@ -266,6 +266,7 @@ display: flex;
 .comment_shelf {
   grid-column-gap: 1rem;
   align-items: center;
+  justify-content: center;
   display: flex;
 }
 
@@ -296,6 +297,22 @@ input {
   border: none;
 }
 
+.fbpostgpt-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0px;
+  color: #fff;
+  width: 75%;
+  border-radius: 2px;
+  padding: 1rem 1.25rem;
+  background: linear-gradient(to right, #b31217, #e52d27);
+  cursor: pointer;
+  font-size: large;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
 
 @media screen and (max-width: 991px) {
 
@@ -318,6 +335,10 @@ input {
   .button_label {
     display: none;
   }
+
+  .fbpostgpt-button {
+    padding: 0.8rem 1rem;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -332,6 +353,10 @@ input {
 
   .post-image_wrapper {
     flex: none;
+  }
+
+  .fbpostgpt-button {
+    padding: 0.5rem 0.75rem;
   }
 }
 
